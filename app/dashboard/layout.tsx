@@ -1,5 +1,7 @@
 import SideNav from '@/app/ui/dashboard/sidenav';
- 
+
+export const experimental_ppr = true; // permet d'optimiser le rendu des pages en utilisant le prefetching
+
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
